@@ -3,11 +3,14 @@
 #include <ctime> // aikaleimaa varten
 
     using namespace std;
-    int game();
+    int game(int);
 
 int main()
 {
-   int arvauslkm = game(); //kutsutaan game aliohjelmaa ja tallennetaan arvausten lukumäärä
+   int maxnum;
+   cout << "Anna korkein arvattava luku." << endl;
+   cin >> maxnum;
+   int arvauslkm = game(maxnum); //kutsutaan game aliohjelmaa ja tallennetaan arvausten lukumäärä
 
     cout << "Arvasit oikein!" << endl;
     cout << "Arvasit " << arvauslkm << " kertaa!" <<endl;
@@ -15,12 +18,12 @@ int main()
     return 0;
 }
 
-int game()
+int game(int maxnum)
 {
     int arvauslkm = 0;
     srand(time(0)); //asetetaan seed aikaleimalla, mistä arvotaan luvut
-    cout << "Arvaa luku valilta 1-20." <<endl;
-    int satunnaisluku = 1 + (rand() % 20); //laitetaan arvotut luvut välille 0-19 ja lisätään siihen +1, jotta arvotut luvut ovat väliltä 1-20
+    cout << "Arvaa luku valilta 1-" << maxnum << "." <<endl;
+    int satunnaisluku = 1 + (rand() % maxnum); //laitetaan arvotut luvut välille 0-19 ja lisätään siihen +1, jotta arvotut luvut ovat väliltä 1-20
     int luettuluku= 0;
     while(luettuluku != satunnaisluku){ //jatketaan while silmukkaa niin kauan, kuin arvattu luku ei ole sama kuin arvottu luku+
         cin >> luettuluku;
