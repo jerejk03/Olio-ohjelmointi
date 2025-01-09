@@ -1,13 +1,14 @@
 #include <iostream>
 #include <cstdlib>
+#include <ctime> // aikaleimaa varten
 
 using namespace std;
 
 int main()
 {
-    std::srand(12);
+    srand(time(0)); //käytetään aikaleimaa, jotta arvottu luku on aina eri seedista.
     cout << "Arvaa luku valilta 1-20." << endl;
-    int satunnaisluku = 1 + (std::rand() % 20);
+    int satunnaisluku = 1 + (rand() % 20);
     int luettuluku= 0;
     while(luettuluku != satunnaisluku){
         cin >> luettuluku;

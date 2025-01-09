@@ -1,0 +1,7 @@
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/teht2.dir
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/koulu/Qt/Olio-ohjelmointi/teht2/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
